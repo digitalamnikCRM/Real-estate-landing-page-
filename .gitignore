@@ -1,0 +1,30 @@
+# Ignore temporary scratch files and logs
+scratch/
+*.tmp
+*.log
+
+# Ignore one-off exploratory/debugging scripts
+analyze_js.ps1
+apply_*.ps1
+check_*.ps1
+crop_*.ps1
+download_assets.ps1
+export_clean_logo.ps1
+extract_*.ps1
+fetch_spa.ps1
+find_*.ps1
+fix_*.ps1
+full_estate_dump.ps1
+get_hero.ps1
+inspect*.ps1
+list_exact_headings.ps1
+modify_guarantees.ps1
+read_*.ps1
+rebuild_clean_index.ps1
+replace_*.ps1
+revert_*.ps1
+scrape.ps1
+update_*.ps1
+
+# Keep server.ps1
+!server.ps1
